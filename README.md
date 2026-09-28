@@ -1,2 +1,26 @@
-# n8n-seo-content-wordpress-automation
-Independent portfolio project: n8n workflow for SEO content generation, Google Sheets processing, AI prompts, and WordPress REST API publishing.
+# n8n SEO Content & WordPress Automation
+
+> **Independent Portfolio Project** — A practical n8n workflow architecture for turning spreadsheet-based keywords into AI-assisted SEO content and publishing it to WordPress through the REST API.
+
+## 🎯 Project Goal
+
+The goal of this workflow is to connect Google Sheets, AI content generation, and WordPress in one reliable automation while keeping every article traceable to its original keyword row.
+
+## ⚙️ Workflow Architecture
+
+```text
+Google Sheets
+     ↓
+Select Ready Keyword Row
+     ↓
+AI Research Prompt
+     ↓
+AI Content Generation
+     ↓
+Validate Required Fields
+     ↓
+WordPress REST API
+     ↓
+Create Draft / Publish
+     ↓
+Write Post ID + URL Back to Sheet
