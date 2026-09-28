@@ -1,6 +1,9 @@
 # n8n SEO Content & WordPress Automation
 
 > **Independent Portfolio Project** — A practical n8n workflow architecture for turning spreadsheet-based keywords into AI-assisted SEO content and publishing it to WordPress through the REST API.
+## 📄 Workflow Sample
+
+[View the n8n SEO Content Workflow Sample (PDF)](./n8n-SEO-Content-Workflow-Sample.pdf)
 
 ## 🎯 Project Goal
 
